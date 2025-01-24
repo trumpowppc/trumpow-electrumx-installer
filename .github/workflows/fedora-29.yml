@@ -1,0 +1,22 @@
+name: Test on Fedora 29
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: fedora-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      - name: Install dependencies
+        run: |
+          sudo dnf install -y <dependencies>
+      - name: Run tests
+        run: |
+          python3 -m unittest discover
