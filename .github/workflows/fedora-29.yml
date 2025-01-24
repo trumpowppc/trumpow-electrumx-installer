@@ -10,13 +10,16 @@ on:
 
 jobs:
   build:
-    runs-on: fedora-latest
+    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-      - name: Install dependencies
+
+      - name: Set up Fedora 29 container
         run: |
-          sudo dnf install -y <dependencies>
-      - name: Run tests
-        run: |
-          python3 -m unittest discover
+          docker run --rm -v $(pwd):/code -w /code fedora:29 bash -c "
+          dnf install -y python3 python3-pip git bash sudo rocksdb-devel;
+          python3 -m pip install --upgrade pip;
+          python3 -m pip install rocksdb;
+          python3 -m unittest discover"
