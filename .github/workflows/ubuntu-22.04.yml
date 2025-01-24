@@ -16,30 +16,15 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install dependencies
+      - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
-            python3 \
-            python3-pip \
-            git \
-            librocksdb-dev \
-            build-essential \
-            cmake \
-            g++ \
-            python3-dev  # Add python3-dev for header files required to build C extensions
-
-      - name: Upgrade pip
-        run: |
-          python3 -m pip install --upgrade pip
-
-      - name: Install Cython
-        run: |
-          python3 -m pip install --upgrade cython  # Ensure Cython is up-to-date
+          sudo apt-get install -y python3 python3-pip git bash sudo librocksdb-dev build-essential
 
       - name: Install Python libraries
         run: |
-          python3 -m pip install rocksdb  # Install the Python rocksdb package
+          python3 -m pip install --upgrade pip
+          python3 -m pip install rocksdb
 
       - name: Run tests
         run: |
