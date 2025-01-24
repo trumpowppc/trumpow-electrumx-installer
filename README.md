@@ -30,10 +30,7 @@ The following operating systems are officially supported and automatically being
 
 | OS              | Status |
 |------------------|-------:|
-| Ubuntu 23.10     | ![Ubuntu 23.10](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-23.10.yml?branch=main&label=Ubuntu%2023.10) |
-| Ubuntu 22.04     | ![Ubuntu 22.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-22.04.yml?branch=main&label=Ubuntu%2022.04) |
 | Ubuntu 20.04     | ![Ubuntu 20.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-20.04.yml?branch=main&label=Ubuntu%2020.04) |
-| Ubuntu 18.04     | ![Ubuntu 18.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-18.04.yml?branch=main&label=Ubuntu%2018.04) |
 | Fedora 29        | ![Fedora 29](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/fedora-29.yml?branch=main&label=Fedora%2029) |
 | Debian Stretch   | ![Debian Stretch](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/debian-stretch.yml?branch=main&label=Debian%20Stretch) |
 | Debian Buster    | ![Debian Buster](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/debian-buster.yml?branch=main&label=Debian%20Buster) |
