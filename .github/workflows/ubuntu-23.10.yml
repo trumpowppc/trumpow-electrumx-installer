@@ -24,9 +24,15 @@ jobs:
             python3-pip \
             git \
             librocksdb-dev \
-            build-essential
+            build-essential \
+            cmake \
+            g++ \
+            libsnappy-dev  # Add snappy for compression support
           python3 -m pip install --upgrade pip
-          python3 -m pip install rocksdb
+
+      - name: Install Python libraries
+        run: |
+          python3 -m pip install rocksdb  # Install the Python rocksdb package
 
       - name: Run tests
         run: |

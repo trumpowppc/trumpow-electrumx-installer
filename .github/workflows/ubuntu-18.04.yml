@@ -24,9 +24,19 @@ jobs:
             python3-pip \
             git \
             librocksdb-dev \
-            build-essential
+            build-essential \
+            cmake \
+            g++ \
+            libsnappy-dev  # Install additional dependencies for compression
           python3 -m pip install --upgrade pip
-          python3 -m pip install rocksdb
+
+      - name: Install Cython
+        run: |
+          python3 -m pip install --upgrade cython  # Ensure Cython is up-to-date
+
+      - name: Install Python libraries
+        run: |
+          python3 -m pip install rocksdb  # Install the Python rocksdb package
 
       - name: Run tests
         run: |
