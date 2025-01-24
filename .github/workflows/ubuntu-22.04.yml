@@ -26,7 +26,11 @@ jobs:
             librocksdb-dev \
             build-essential \
             cmake \
-            g++  # Added cmake and g++ for building dependencies
+            g++ \
+            python3-dev  # Add python3-dev for header files required to build C extensions
+
+      - name: Upgrade pip
+        run: |
           python3 -m pip install --upgrade pip
 
       - name: Install Cython
