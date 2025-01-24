@@ -34,7 +34,6 @@ The following operating systems are officially supported and automatically being
 | Ubuntu 22.04     | ![Ubuntu 22.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-22.04.yml?branch=main&label=Ubuntu%2022.04) |
 | Ubuntu 20.04     | ![Ubuntu 20.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-20.04.yml?branch=main&label=Ubuntu%2020.04) |
 | Ubuntu 18.04     | ![Ubuntu 18.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-18.04.yml?branch=main&label=Ubuntu%2018.04) |
-<!-- | Ubuntu 16.04     | ![Ubuntu 16.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-16.04.yml?branch=main&label=Ubuntu%2016.04) | -->
 | Fedora 29        | ![Fedora 29](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/fedora-29.yml?branch=main&label=Fedora%2029) |
 | CentOS 7         | ![CentOS 7](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/centos-7.yml?branch=main&label=CentOS%207) |
 | Debian Stretch   | ![Debian Stretch](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/debian-stretch.yml?branch=main&label=Debian%20Stretch) |
