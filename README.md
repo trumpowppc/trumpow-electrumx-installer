@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/master/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/main/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,7 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/master/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/main/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
 
 ## Operating System Compatibility
