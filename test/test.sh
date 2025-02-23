@@ -8,4 +8,3 @@ fi
 
 ./install.sh
 electrumx_server
-

@@ -10,8 +10,8 @@ UPDATE_ONLY=0
 UPDATE_PYTHON=0
 VERBOSE=0
 USE_ROCKSDB=1
-ELECTRUMX_GIT_URL="https://github.com/CryptoDevelopmentServices/electrumx-shic.git"
-ELECTRUMX_GIT_BRANCH="master"
+ELECTRUMX_GIT_URL="https://github.com/CryptoDevelopmentServices/electrumx-bonc"
+ELECTRUMX_GIT_BRANCH=""
 
 installer=$(realpath $0)
 
@@ -180,7 +180,7 @@ if [ $UPDATE_ONLY == 0 ] || [ $UPDATE_PYTHON == 1 ]; then
 			_error "Unable to install Python 3.7" 4
 		fi
 	fi
-
+	
 
 	_status "Installing git"
 	install_git
@@ -239,7 +239,7 @@ if [ $UPDATE_ONLY == 0 ] || [ $UPDATE_PYTHON == 1 ]; then
 
 	if declare -f package_cleanup > /dev/null; then
 		_status "Cleaning up"
-		package_cleanup
+		package_cleanup	
 	fi
 	_info "electrumx has been installed successfully. Edit /etc/electrumx.conf to configure it."
 else

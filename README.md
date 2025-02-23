@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/main/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/bonc-electrumx-installer/main/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,7 +21,7 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/shic-electrumx-installer/main/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/bonc-electrumx-installer/main/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
 
 ## Operating System Compatibility
@@ -30,13 +30,13 @@ The following operating systems are officially supported and automatically being
 
 | OS              | Status |
 |------------------|-------:|
-| Ubuntu 20.04     | ![Ubuntu 20.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/ubuntu-20.04.yml?branch=main&label=Ubuntu%2020.04) |
-| Fedora 29        | ![Fedora 29](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/fedora-29.yml?branch=main&label=Fedora%2029) |
-| Debian Stretch   | ![Debian Stretch](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/debian-stretch.yml?branch=main&label=Debian%20Stretch) |
-| Debian Buster    | ![Debian Buster](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/shic-electrumx-installer/debian-buster.yml?branch=main&label=Debian%20Buster) |
+| Ubuntu 20.04     | ![Ubuntu 20.04](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/bonc-electrumx-installer/ubuntu-20.04.yml?branch=main&label=Ubuntu%2020.04) |
+| Fedora 29        | ![Fedora 29](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/bonc-electrumx-installer/fedora-29.yml?branch=main&label=Fedora%2029) |
+| Debian Stretch   | ![Debian Stretch](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/bonc-electrumx-installer/debian-stretch.yml?branch=main&label=Debian%20Stretch) |
+| Debian Buster    | ![Debian Buster](https://img.shields.io/github/actions/workflow/status/CryptoDevelopmentServices/bonc-electrumx-installer/debian-buster.yml?branch=main&label=Debian%20Buster) |
 
 
 
 If you prefer a different operating system that's not listed here, see
-[`distributions/README.md`](https://github.com/CryptoDevelopmentServices/shic-electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
-Or open an [issue](https://github.com/CryptoDevelopmentServices/shic-electrumx-installer/issues/new) if you'd rather not do that yourself.
+[`distributions/README.md`](https://github.com/CryptoDevelopmentServices/bonc-electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
+Or open an [issue](https://github.com/CryptoDevelopmentServices/bonc-electrumx-installer/issues/new) if you'd rather not do that yourself.
