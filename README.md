@@ -10,7 +10,7 @@ is to customise the configuration and to start electrumx.
 ## Usage
 This installs electrumx using the default options:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/bonc-electrumx-installer/main/bootstrap.sh -O - | bash
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/trumpow-electrumx-installer/main/bootstrap.sh -O - | bash
 
 You can also set some options if you want more control:
 
@@ -21,10 +21,10 @@ You can also set some options if you want more control:
 
 For example:
 
-    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/bonc-electrumx-installer/main/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
+    wget https://raw.githubusercontent.com/CryptoDevelopmentServices/trumpow-electrumx-installer/main/bootstrap.sh -O - | bash -s - -d /media/ssd/electrum-db
 
 
 
 If you prefer a different operating system that's not listed here, see
-[`distributions/README.md`](https://github.com/CryptoDevelopmentServices/bonc-electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
-Or open an [issue](https://github.com/CryptoDevelopmentServices/bonc-electrumx-installer/issues/new) if you'd rather not do that yourself.
+[`distributions/README.md`](https://github.com/CryptoDevelopmentServices/trumpow-electrumx-installer/blob/master/distributions/README.md) to find out how to add it.
+Or open an [issue](https://github.com/CryptoDevelopmentServices/trumpow-electrumx-installer/issues/new) if you'd rather not do that yourself.
